@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(253, 107, 107) url(./images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    /* padding: 20px 30px; */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.first-div {
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-div h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.first-div p {
+    font-size: 15px;
+}
+
+.second-div {
+    margin-left: 120px;
+}
+
+.top {
+    margin-bottom: 55px;
+    border: 10px;
+    background-color: rgb(104, 104, 175);
+    border-radius: 10px;
+    height: 50px;
+    /* width: 450px; */
+    text-align: center;
+    padding: 15px;
+}
+
+.top h5 {
+    font-size: 15px;
+}
+
+.middle {
+    border: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 400px;
+    width: 450px;
+    margin-top: -40px;
+}
+
+form {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+input {
+    height: 47px;
+    width: 100%;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+button {
+    margin-top: -20px;
+    margin-left: 28px;
+    background-color: hsl(154, 59%, 51%);
+    box-shadow: 3px 5px  hsl(154, 47%, 46%);
+    color: #fff;
+    border: none;
+    height: 45px;
+    width: 87%;
+    border-radius: 5px;
+    font-size: 12px;
+    text-shadow: 30px;
+}
+
+footer {
+    margin-top: 15px;
+    color: rgb(163, 149, 149);
+    font-size: 11px;
+    text-align: center;
+}
+
+span {
+    color: rgb(253, 107, 107);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+
+
+
+
+
+
+
+
